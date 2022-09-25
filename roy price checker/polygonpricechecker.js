@@ -35,7 +35,7 @@ async function sendEmail(browser) {
   await page2.click('body > div:nth-child(20) > div.nH > div > div.nH.aqk.aql.bkL > div.aeN.WR.nH.oy8Mbf > div.aic > div > div');
   await page2.waitForTimeout(500)
   await page2.type("#\\:qd", "bence.lukacsy@gmail.com");
-  await page2.type("#\\:pv", "ROY PRICE $1K!!!");  
+  await page2.type("#\\:pv", "ROY Price 2.5 cents");  
   await page2.waitForSelector("#\\:pl");
   await page2.click("#\\:pl");
   
